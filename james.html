@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="public/favicon.svg" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <meta name="view-transition" content="same-origin" />
+    <title>html author</title>
+</head>
+
+<body>
+    <div class="c-layout">
+        <div class="c-layout__header">
+            <div class="c-header">
+                <nav class="c-header__nav">
+                    <div class="c-header__logo">
+                        <a href="index.html" class="c-logo">
+                            <img src="public/logo.svg" class="c-logo__img" alt="Logo Storyland" />
+                            <div class="c-logo__title">Storyland</div>
+                        </a>
+                        <nav class="c-nav">
+                            <a href="index.html" class="c-nav__link">Home</a>
+                            <a href="/special.html" class="c-nav__link">Specials</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <div class="c-winkelmand__link">
+                            <i class="fas fa-shopping-bag c-winkelmand__icon"></i>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="c-header__content">
+            <div class="c-detail">
+                <button class="c-button" onclick="window.history.back()">
+                    <i class="fas fa-arrow-left c-back"></i>
+                </button>
+            </div>
+            <div class="c-author">
+                <div class="c-detail__info">
+                    <h1 class="c-author__name" style="view-transition-name: author">James Norbury</h1>
+                    <p class="c-author__info">James Norbury is een kinderboekenauteur van Zuid-Wales. Hij is vooral gekend om ‘Grote Panda & Kleine Draak’ en ‘De reis van Grote Panda en Kleine Draak’.</p>
+                </div>
+                <div class="c-author__img">
+                    <img class="c-img__author" src="public/james_norbury.jpg" alt="boek 1">
+                </div>
+            </div>
+            <div class="c-authorinfo">
+                <h1 class="c-authorinfo__title">Enkele boeken van de auteur</h1>
+                <p>
+                      <div>
+                        <h2 class="c-color">De reis van de wijze kat</h2>
+                        <img style="view-transition-name: book" class="c-author__book" src="public/De_reis_van_de_wijze_kat.jpg" alt="boek 1" />
+                      </div>
+                  </p>
+            </div>
+        </div>
+
+        <footer class="c-footer">
+            <p class="c-footer__content">Made with ❤ by Aléssia Vinnik</p>
+        </footer>
+    </div>
+</body>
+
+</html>
